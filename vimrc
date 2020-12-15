@@ -1,4 +1,4 @@
-" Basic option"
+" Basic config"
 syntax on
 set ruler
 set showcmd
@@ -6,17 +6,17 @@ set number
 set showmatch
 set cc=100
 
-" Searching option "
+" Search config "
 set smartcase
 set hlsearch
 
-" Tab option : 1 tab is 4 spaces "
+" Tab config : 1 tab is 4 spaces "
 set expandtab
 set smarttab
 set shiftwidth=4
 set tabstop=4
 
-" Indent option "
+" Indent config "
 set autoindent
 set smartindent
 
@@ -39,3 +39,4 @@ function SetHTMLOptions()
 endfunction
 
 autocmd BufRead,BufNewFile *.html call SetHTMLOptions()
+autocmd BufNewFile,BufRead *.py :set cc=120
