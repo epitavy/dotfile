@@ -1,0 +1,10 @@
+[pull]
+    rebase = true
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore
+[user]
+    name = Eliaz Pitavy
+    email = eliaz.pitavy@epita.fr
+[grep]
+    linenumber = true
